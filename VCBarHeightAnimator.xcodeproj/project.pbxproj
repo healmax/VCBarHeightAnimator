@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F160DD421FEA20900F4C259 /* UIView+LayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD021FEA20900F4C259 /* UIView+LayoutConstraints.m */; };
+		3F160DD521FEA20900F4C259 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD121FEA20900F4C259 /* UIColor+Helper.m */; };
+		3F160DD621FEA20900F4C259 /* VCScrollTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD321FEA20900F4C259 /* VCScrollTabBar.m */; };
+		3F160DD921FEA47C00F4C259 /* LanLanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD821FEA47C00F4C259 /* LanLanViewController.m */; };
+		3F3D7BEE21F956310024A556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7BED21F956310024A556 /* AppDelegate.m */; };
+		3F3D7BF121F956310024A556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7BF021F956310024A556 /* ViewController.m */; };
+		3F3D7BF421F956310024A556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D7BF221F956310024A556 /* Main.storyboard */; };
+		3F3D7BF621F956330024A556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D7BF521F956330024A556 /* Assets.xcassets */; };
+		3F3D7BF921F956330024A556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D7BF721F956330024A556 /* LaunchScreen.storyboard */; };
+		3F3D7BFC21F956330024A556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7BFB21F956330024A556 /* main.m */; };
+		3F3D7C0521F956670024A556 /* VCBarHeightAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7C0421F956670024A556 /* VCBarHeightAnimator.m */; };
+		3F67CB6621FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67CB6521FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F160DCE21FEA20900F4C259 /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
+		3F160DCF21FEA20900F4C259 /* UIView+LayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutConstraints.h"; sourceTree = "<group>"; };
+		3F160DD021FEA20900F4C259 /* UIView+LayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraints.m"; sourceTree = "<group>"; };
+		3F160DD121FEA20900F4C259 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
+		3F160DD221FEA20900F4C259 /* VCScrollTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCScrollTabBar.h; sourceTree = "<group>"; };
+		3F160DD321FEA20900F4C259 /* VCScrollTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCScrollTabBar.m; sourceTree = "<group>"; };
+		3F160DD721FEA47C00F4C259 /* LanLanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanLanViewController.h; sourceTree = "<group>"; };
+		3F160DD821FEA47C00F4C259 /* LanLanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanLanViewController.m; sourceTree = "<group>"; };
+		3F3D7BE921F956310024A556 /* VCBarHeightAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCBarHeightAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D7BEC21F956310024A556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3D7BED21F956310024A556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3D7BEF21F956310024A556 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F3D7BF021F956310024A556 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F3D7BF321F956310024A556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3D7BF521F956330024A556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3D7BF821F956330024A556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3D7BFA21F956330024A556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3D7BFB21F956330024A556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3D7C0321F956670024A556 /* VCBarHeightAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCBarHeightAnimator.h; sourceTree = "<group>"; };
+		3F3D7C0421F956670024A556 /* VCBarHeightAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCBarHeightAnimator.m; sourceTree = "<group>"; };
+		3F67CB6421FC5D960019AA2A /* VCScrollViewContentOffsetObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCScrollViewContentOffsetObserver.h; sourceTree = "<group>"; };
+		3F67CB6521FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCScrollViewContentOffsetObserver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3D7BE621F956310024A556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F160DCC21FEA20900F4C259 /* ScrollViewTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F160DCD21FEA20900F4C259 /* Category */,
+				3F160DD221FEA20900F4C259 /* VCScrollTabBar.h */,
+				3F160DD321FEA20900F4C259 /* VCScrollTabBar.m */,
+			);
+			path = ScrollViewTabBar;
+			sourceTree = "<group>";
+		};
+		3F160DCD21FEA20900F4C259 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3F160DCE21FEA20900F4C259 /* UIColor+Helper.h */,
+				3F160DCF21FEA20900F4C259 /* UIView+LayoutConstraints.h */,
+				3F160DD021FEA20900F4C259 /* UIView+LayoutConstraints.m */,
+				3F160DD121FEA20900F4C259 /* UIColor+Helper.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3F3D7BE021F956310024A556 = {
+			isa = PBXGroup;
+			children = (
+				3F3D7BEB21F956310024A556 /* VCBarHeightAnimator */,
+				3F3D7BEA21F956310024A556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3D7BEA21F956310024A556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D7BE921F956310024A556 /* VCBarHeightAnimator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3D7BEB21F956310024A556 /* VCBarHeightAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				3F160DCC21FEA20900F4C259 /* ScrollViewTabBar */,
+				3F3D7C0221F956440024A556 /* BarHeightAnimator */,
+				3F3D7BEC21F956310024A556 /* AppDelegate.h */,
+				3F3D7BED21F956310024A556 /* AppDelegate.m */,
+				3F3D7BEF21F956310024A556 /* ViewController.h */,
+				3F3D7BF021F956310024A556 /* ViewController.m */,
+				3F3D7BF221F956310024A556 /* Main.storyboard */,
+				3F3D7BF521F956330024A556 /* Assets.xcassets */,
+				3F3D7BF721F956330024A556 /* LaunchScreen.storyboard */,
+				3F3D7BFA21F956330024A556 /* Info.plist */,
+				3F3D7BFB21F956330024A556 /* main.m */,
+				3F160DD721FEA47C00F4C259 /* LanLanViewController.h */,
+				3F160DD821FEA47C00F4C259 /* LanLanViewController.m */,
+			);
+			path = VCBarHeightAnimator;
+			sourceTree = "<group>";
+		};
+		3F3D7C0221F956440024A556 /* BarHeightAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D7C0321F956670024A556 /* VCBarHeightAnimator.h */,
+				3F3D7C0421F956670024A556 /* VCBarHeightAnimator.m */,
+				3F67CB6421FC5D960019AA2A /* VCScrollViewContentOffsetObserver.h */,
+				3F67CB6521FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m */,
+			);
+			path = BarHeightAnimator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3D7BE821F956310024A556 /* VCBarHeightAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3D7BFF21F956330024A556 /* Build configuration list for PBXNativeTarget "VCBarHeightAnimator" */;
+			buildPhases = (
+				3F3D7BE521F956310024A556 /* Sources */,
+				3F3D7BE621F956310024A556 /* Frameworks */,
+				3F3D7BE721F956310024A556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCBarHeightAnimator;
+			productName = VCBarHeightAnimator;
+			productReference = 3F3D7BE921F956310024A556 /* VCBarHeightAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3D7BE121F956310024A556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.healmax;
+				TargetAttributes = {
+					3F3D7BE821F956310024A556 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F3D7BE421F956310024A556 /* Build configuration list for PBXProject "VCBarHeightAnimator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3D7BE021F956310024A556;
+			productRefGroup = 3F3D7BEA21F956310024A556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3D7BE821F956310024A556 /* VCBarHeightAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3D7BE721F956310024A556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D7BF921F956330024A556 /* LaunchScreen.storyboard in Resources */,
+				3F3D7BF621F956330024A556 /* Assets.xcassets in Resources */,
+				3F3D7BF421F956310024A556 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3D7BE521F956310024A556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3D7BF121F956310024A556 /* ViewController.m in Sources */,
+				3F3D7BFC21F956330024A556 /* main.m in Sources */,
+				3F67CB6621FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m in Sources */,
+				3F3D7C0521F956670024A556 /* VCBarHeightAnimator.m in Sources */,
+				3F160DD521FEA20900F4C259 /* UIColor+Helper.m in Sources */,
+				3F160DD921FEA47C00F4C259 /* LanLanViewController.m in Sources */,
+				3F3D7BEE21F956310024A556 /* AppDelegate.m in Sources */,
+				3F160DD421FEA20900F4C259 /* UIView+LayoutConstraints.m in Sources */,
+				3F160DD621FEA20900F4C259 /* VCScrollTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F3D7BF221F956310024A556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3D7BF321F956310024A556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3D7BF721F956330024A556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3D7BF821F956330024A556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3D7BFD21F956330024A556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F3D7BFE21F956330024A556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3D7C0021F956330024A556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9JJV5E86Z;
+				INFOPLIST_FILE = VCBarHeightAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healmax.VCBarHeightAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3D7C0121F956330024A556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9JJV5E86Z;
+				INFOPLIST_FILE = VCBarHeightAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.healmax.VCBarHeightAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3D7BE421F956310024A556 /* Build configuration list for PBXProject "VCBarHeightAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D7BFD21F956330024A556 /* Debug */,
+				3F3D7BFE21F956330024A556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3D7BFF21F956330024A556 /* Build configuration list for PBXNativeTarget "VCBarHeightAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3D7C0021F956330024A556 /* Debug */,
+				3F3D7C0121F956330024A556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3D7BE121F956310024A556 /* Project object */;
+}
