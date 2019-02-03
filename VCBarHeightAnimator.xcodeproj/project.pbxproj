@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F160DD421FEA20900F4C259 /* UIView+LayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD021FEA20900F4C259 /* UIView+LayoutConstraints.m */; };
 		3F160DD521FEA20900F4C259 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD121FEA20900F4C259 /* UIColor+Helper.m */; };
-		3F160DD621FEA20900F4C259 /* VCScrollTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD321FEA20900F4C259 /* VCScrollTabBar.m */; };
 		3F160DD921FEA47C00F4C259 /* LanLanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F160DD821FEA47C00F4C259 /* LanLanViewController.m */; };
 		3F3D7BEE21F956310024A556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7BED21F956310024A556 /* AppDelegate.m */; };
 		3F3D7BF121F956310024A556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7BF021F956310024A556 /* ViewController.m */; };
@@ -19,6 +18,7 @@
 		3F3D7BFC21F956330024A556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7BFB21F956330024A556 /* main.m */; };
 		3F3D7C0521F956670024A556 /* VCBarHeightAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7C0421F956670024A556 /* VCBarHeightAnimator.m */; };
 		3F67CB6621FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67CB6521FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m */; };
+		A666A3648AD3CA2FBFD4BC10 /* libPods-VCBarHeightAnimator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD80F7A023ECEDCDA53CF14 /* libPods-VCBarHeightAnimator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,6 @@
 		3F160DCF21FEA20900F4C259 /* UIView+LayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutConstraints.h"; sourceTree = "<group>"; };
 		3F160DD021FEA20900F4C259 /* UIView+LayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraints.m"; sourceTree = "<group>"; };
 		3F160DD121FEA20900F4C259 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
-		3F160DD221FEA20900F4C259 /* VCScrollTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCScrollTabBar.h; sourceTree = "<group>"; };
-		3F160DD321FEA20900F4C259 /* VCScrollTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCScrollTabBar.m; sourceTree = "<group>"; };
 		3F160DD721FEA47C00F4C259 /* LanLanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanLanViewController.h; sourceTree = "<group>"; };
 		3F160DD821FEA47C00F4C259 /* LanLanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanLanViewController.m; sourceTree = "<group>"; };
 		3F3D7BE921F956310024A556 /* VCBarHeightAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCBarHeightAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +42,9 @@
 		3F3D7C0421F956670024A556 /* VCBarHeightAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCBarHeightAnimator.m; sourceTree = "<group>"; };
 		3F67CB6421FC5D960019AA2A /* VCScrollViewContentOffsetObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCScrollViewContentOffsetObserver.h; sourceTree = "<group>"; };
 		3F67CB6521FC5D960019AA2A /* VCScrollViewContentOffsetObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCScrollViewContentOffsetObserver.m; sourceTree = "<group>"; };
+		B1C46CEC5E8C369194273756 /* Pods-VCBarHeightAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCBarHeightAnimator.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCBarHeightAnimator/Pods-VCBarHeightAnimator.release.xcconfig"; sourceTree = "<group>"; };
+		C8E1255A4C70C1191334EEF3 /* Pods-VCBarHeightAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCBarHeightAnimator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCBarHeightAnimator/Pods-VCBarHeightAnimator.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD80F7A023ECEDCDA53CF14 /* libPods-VCBarHeightAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCBarHeightAnimator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,22 +52,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A666A3648AD3CA2FBFD4BC10 /* libPods-VCBarHeightAnimator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F160DCC21FEA20900F4C259 /* ScrollViewTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				3F160DCD21FEA20900F4C259 /* Category */,
-				3F160DD221FEA20900F4C259 /* VCScrollTabBar.h */,
-				3F160DD321FEA20900F4C259 /* VCScrollTabBar.m */,
-			);
-			path = ScrollViewTabBar;
-			sourceTree = "<group>";
-		};
 		3F160DCD21FEA20900F4C259 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +67,8 @@
 				3F160DD021FEA20900F4C259 /* UIView+LayoutConstraints.m */,
 				3F160DD121FEA20900F4C259 /* UIColor+Helper.m */,
 			);
-			path = Category;
+			name = Category;
+			path = ScrollViewTabBar/Category;
 			sourceTree = "<group>";
 		};
 		3F3D7BE021F956310024A556 = {
@@ -83,6 +76,8 @@
 			children = (
 				3F3D7BEB21F956310024A556 /* VCBarHeightAnimator */,
 				3F3D7BEA21F956310024A556 /* Products */,
+				9ED6F87E3900A4432748D90D /* Pods */,
+				BF3F91CAF9C930C897B1E3FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +92,7 @@
 		3F3D7BEB21F956310024A556 /* VCBarHeightAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				3F160DCC21FEA20900F4C259 /* ScrollViewTabBar */,
+				3F160DCD21FEA20900F4C259 /* Category */,
 				3F3D7C0221F956440024A556 /* BarHeightAnimator */,
 				3F3D7BEC21F956310024A556 /* AppDelegate.h */,
 				3F3D7BED21F956310024A556 /* AppDelegate.m */,
@@ -125,6 +120,23 @@
 			path = BarHeightAnimator;
 			sourceTree = "<group>";
 		};
+		9ED6F87E3900A4432748D90D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8E1255A4C70C1191334EEF3 /* Pods-VCBarHeightAnimator.debug.xcconfig */,
+				B1C46CEC5E8C369194273756 /* Pods-VCBarHeightAnimator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF3F91CAF9C930C897B1E3FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD80F7A023ECEDCDA53CF14 /* libPods-VCBarHeightAnimator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F3D7BFF21F956330024A556 /* Build configuration list for PBXNativeTarget "VCBarHeightAnimator" */;
 			buildPhases = (
+				E5F6A67EFEDFEAC984C6314C /* [CP] Check Pods Manifest.lock */,
 				3F3D7BE521F956310024A556 /* Sources */,
 				3F3D7BE621F956310024A556 /* Frameworks */,
 				3F3D7BE721F956310024A556 /* Resources */,
@@ -190,6 +203,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E5F6A67EFEDFEAC984C6314C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VCBarHeightAnimator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F3D7BE521F956310024A556 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,7 +241,6 @@
 				3F160DD921FEA47C00F4C259 /* LanLanViewController.m in Sources */,
 				3F3D7BEE21F956310024A556 /* AppDelegate.m in Sources */,
 				3F160DD421FEA20900F4C259 /* UIView+LayoutConstraints.m in Sources */,
-				3F160DD621FEA20900F4C259 /* VCScrollTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +380,7 @@
 		};
 		3F3D7C0021F956330024A556 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E1255A4C70C1191334EEF3 /* Pods-VCBarHeightAnimator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +398,7 @@
 		};
 		3F3D7C0121F956330024A556 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C46CEC5E8C369194273756 /* Pods-VCBarHeightAnimator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

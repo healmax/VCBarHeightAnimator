@@ -263,10 +263,10 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 }
 
 - (void)adjustBarHeightWithPercentage:(CGFloat)percentage animated:(BOOL)animated {
-//     CGFloat offset = (CGRectGetMaxY(self.navigationBar.frame)) - self.navigationBarHeight * percentage;
+     CGFloat offset = (CGRectGetMaxY(self.navigationBar.frame)) - self.navigationBarHeight * percentage;
     if (animated) {
         [UIView animateWithDuration:kCollapseAnimationDuration animations:^{
-//            [self updateContentOffsetWithOffset:-offset];
+//            [self updateContentOffsetWithOffset:offset];
             
             // 更新NavigationBar的位置
             [self updateNavigationBarWithPercentage:percentage];
