@@ -28,7 +28,7 @@
 		3F160DD121FEA20900F4C259 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
 		3F160DD721FEA47C00F4C259 /* LanLanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanLanViewController.h; sourceTree = "<group>"; };
 		3F160DD821FEA47C00F4C259 /* LanLanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanLanViewController.m; sourceTree = "<group>"; };
-		3F3D7BE921F956310024A556 /* VCBarHeightAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCBarHeightAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D7BE921F956310024A556 /* VCBarHeightAnimatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCBarHeightAnimatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3D7BEC21F956310024A556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F3D7BED21F956310024A556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F3D7BEF21F956310024A556 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		3F3D7BE021F956310024A556 = {
 			isa = PBXGroup;
 			children = (
-				3F3D7BEB21F956310024A556 /* VCBarHeightAnimator */,
+				3F3D7BEB21F956310024A556 /* VCBarHeightAnimatorDemo */,
 				3F3D7BEA21F956310024A556 /* Products */,
 				9ED6F87E3900A4432748D90D /* Pods */,
 				BF3F91CAF9C930C897B1E3FF /* Frameworks */,
@@ -84,12 +84,12 @@
 		3F3D7BEA21F956310024A556 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F3D7BE921F956310024A556 /* VCBarHeightAnimator.app */,
+				3F3D7BE921F956310024A556 /* VCBarHeightAnimatorDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F3D7BEB21F956310024A556 /* VCBarHeightAnimator */ = {
+		3F3D7BEB21F956310024A556 /* VCBarHeightAnimatorDemo */ = {
 			isa = PBXGroup;
 			children = (
 				3F160DCD21FEA20900F4C259 /* Category */,
@@ -106,7 +106,7 @@
 				3F160DD721FEA47C00F4C259 /* LanLanViewController.h */,
 				3F160DD821FEA47C00F4C259 /* LanLanViewController.m */,
 			);
-			path = VCBarHeightAnimator;
+			path = VCBarHeightAnimatorDemo;
 			sourceTree = "<group>";
 		};
 		3F3D7C0221F956440024A556 /* BarHeightAnimator */ = {
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F3D7BE821F956310024A556 /* VCBarHeightAnimator */ = {
+		3F3D7BE821F956310024A556 /* VCBarHeightAnimatorDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F3D7BFF21F956330024A556 /* Build configuration list for PBXNativeTarget "VCBarHeightAnimator" */;
+			buildConfigurationList = 3F3D7BFF21F956330024A556 /* Build configuration list for PBXNativeTarget "VCBarHeightAnimatorDemo" */;
 			buildPhases = (
 				E5F6A67EFEDFEAC984C6314C /* [CP] Check Pods Manifest.lock */,
 				3F3D7BE521F956310024A556 /* Sources */,
@@ -153,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = VCBarHeightAnimator;
+			name = VCBarHeightAnimatorDemo;
 			productName = VCBarHeightAnimator;
-			productReference = 3F3D7BE921F956310024A556 /* VCBarHeightAnimator.app */;
+			productReference = 3F3D7BE921F956310024A556 /* VCBarHeightAnimatorDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F3D7BE421F956310024A556 /* Build configuration list for PBXProject "VCBarHeightAnimator" */;
+			buildConfigurationList = 3F3D7BE421F956310024A556 /* Build configuration list for PBXProject "VCBarHeightAnimatorDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F3D7BE821F956310024A556 /* VCBarHeightAnimator */,
+				3F3D7BE821F956310024A556 /* VCBarHeightAnimatorDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -385,7 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9JJV5E86Z;
-				INFOPLIST_FILE = VCBarHeightAnimator/Info.plist;
+				INFOPLIST_FILE = VCBarHeightAnimatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9JJV5E86Z;
-				INFOPLIST_FILE = VCBarHeightAnimator/Info.plist;
+				INFOPLIST_FILE = VCBarHeightAnimatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F3D7BE421F956310024A556 /* Build configuration list for PBXProject "VCBarHeightAnimator" */ = {
+		3F3D7BE421F956310024A556 /* Build configuration list for PBXProject "VCBarHeightAnimatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F3D7BFD21F956330024A556 /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F3D7BFF21F956330024A556 /* Build configuration list for PBXNativeTarget "VCBarHeightAnimator" */ = {
+		3F3D7BFF21F956330024A556 /* Build configuration list for PBXNativeTarget "VCBarHeightAnimatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F3D7C0021F956330024A556 /* Debug */,

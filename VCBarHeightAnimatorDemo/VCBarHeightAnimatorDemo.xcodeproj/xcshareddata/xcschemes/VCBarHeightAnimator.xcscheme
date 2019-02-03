@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F3D7BE821F956310024A556"
-               BuildableName = "VCBarHeightAnimator.app"
-               BlueprintName = "VCBarHeightAnimator"
-               ReferencedContainer = "container:VCBarHeightAnimator.xcodeproj">
+               BuildableName = "VCBarHeightAnimatorDemo.app"
+               BlueprintName = "VCBarHeightAnimatorDemo"
+               ReferencedContainer = "container:VCBarHeightAnimatorDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F3D7BE821F956310024A556"
-            BuildableName = "VCBarHeightAnimator.app"
-            BlueprintName = "VCBarHeightAnimator"
-            ReferencedContainer = "container:VCBarHeightAnimator.xcodeproj">
+            BuildableName = "VCBarHeightAnimatorDemo.app"
+            BlueprintName = "VCBarHeightAnimatorDemo"
+            ReferencedContainer = "container:VCBarHeightAnimatorDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F3D7BE821F956310024A556"
-            BuildableName = "VCBarHeightAnimator.app"
-            BlueprintName = "VCBarHeightAnimator"
-            ReferencedContainer = "container:VCBarHeightAnimator.xcodeproj">
+            BuildableName = "VCBarHeightAnimatorDemo.app"
+            BlueprintName = "VCBarHeightAnimatorDemo"
+            ReferencedContainer = "container:VCBarHeightAnimatorDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F3D7BE821F956310024A556"
-            BuildableName = "VCBarHeightAnimator.app"
-            BlueprintName = "VCBarHeightAnimator"
-            ReferencedContainer = "container:VCBarHeightAnimator.xcodeproj">
+            BuildableName = "VCBarHeightAnimatorDemo.app"
+            BlueprintName = "VCBarHeightAnimatorDemo"
+            ReferencedContainer = "container:VCBarHeightAnimatorDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
