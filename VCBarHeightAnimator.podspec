@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VCBarHeightAnimator"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "VCBarHeightAnimator can show hide navigation bar"
 
   # This description is used to generate tags and improve search results.
