@@ -2,7 +2,7 @@
 #import "VCScrollTabBar.h"
 #import "UIView+LayoutConstraints.h"
 #import "UIColor+Helper.h"
-#import "ViewController.h"
+#import "DemoPresentScrollViewController.h"
 #import "VCBarHeightAnimator.h"
 
 @interface LanLanViewController()<VCScrollTabBarDelegate, UIScrollViewDelegate>
@@ -73,7 +73,7 @@
     [self.view layoutIfNeeded];
     
     [subView enumerateObjectsUsingBlock:^(UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        ViewController *vc = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(ViewController.class)];
+        DemoPresentScrollViewController *vc = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(DemoPresentScrollViewController.class)];
         vc.view.translatesAutoresizingMaskIntoConstraints = NO;
         [self addChildViewController:vc];
         [self.viewControllers addObject:vc];
@@ -115,6 +115,10 @@
     config.showCenterIndicatorView = YES;
     
     [self.scrollTabBar updateConfig:config];
+}
+
+- (IBAction)closeButtonOnClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - accessor

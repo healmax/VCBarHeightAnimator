@@ -33,16 +33,6 @@
    [self.barHeightAnimator showBarWithAnimated:NO];
 }
 
-#pragma mark - public
-
-- (void)fullScreen:(BOOL)fullScreen animated:(BOOL)animated {
-    if (fullScreen) {
-        [self.barHeightAnimator hideBarWithAnimated:animated];
-    } else {
-        [self.barHeightAnimator showBarWithAnimated:animated];
-    }
-}
-
 #pragma mark - VCBarHeightAnimating
 
 - (UIScrollView *)scrollView {

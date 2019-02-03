@@ -18,8 +18,8 @@
 		3F3D7BFC21F956330024A556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7BFB21F956330024A556 /* main.m */; };
 		3F9F9C5E2206CC4400867631 /* VCBarHeightAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F9C5A2206CC4400867631 /* VCBarHeightAnimator.m */; };
 		3F9F9C5F2206CC4400867631 /* VCScrollViewContentOffsetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F9C5B2206CC4400867631 /* VCScrollViewContentOffsetObserver.m */; };
-		7CCFA7BE1434079F233996C6 /* libPods-VCBarHeightAnimatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D3DDF8C550727D40308E2A /* libPods-VCBarHeightAnimatorDemo.a */; };
-		A666A3648AD3CA2FBFD4BC10 /* libPods-VCBarHeightAnimator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD80F7A023ECEDCDA53CF14 /* libPods-VCBarHeightAnimator.a */; };
+		3F9F9C682206E2C700867631 /* DemoPushTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F9C672206E2C700867631 /* DemoPushTabBarViewController.m */; };
+		3F9F9C6B2206E3DA00867631 /* DemoPresentScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F9C6A2206E3DA00867631 /* DemoPresentScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,11 +43,12 @@
 		3F9F9C5B2206CC4400867631 /* VCScrollViewContentOffsetObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCScrollViewContentOffsetObserver.m; sourceTree = "<group>"; };
 		3F9F9C5C2206CC4400867631 /* VCBarHeightAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCBarHeightAnimator.h; sourceTree = "<group>"; };
 		3F9F9C5D2206CC4400867631 /* VCScrollViewContentOffsetObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCScrollViewContentOffsetObserver.h; sourceTree = "<group>"; };
+		3F9F9C662206E2C700867631 /* DemoPushTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoPushTabBarViewController.h; sourceTree = "<group>"; };
+		3F9F9C672206E2C700867631 /* DemoPushTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPushTabBarViewController.m; sourceTree = "<group>"; };
+		3F9F9C692206E3DA00867631 /* DemoPresentScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoPresentScrollViewController.h; sourceTree = "<group>"; };
+		3F9F9C6A2206E3DA00867631 /* DemoPresentScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPresentScrollViewController.m; sourceTree = "<group>"; };
 		95D3DDF8C550727D40308E2A /* libPods-VCBarHeightAnimatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCBarHeightAnimatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1C46CEC5E8C369194273756 /* Pods-VCBarHeightAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCBarHeightAnimator.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCBarHeightAnimator/Pods-VCBarHeightAnimator.release.xcconfig"; sourceTree = "<group>"; };
 		BF990447C1811F3FC7C4ACF0 /* Pods-VCBarHeightAnimatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCBarHeightAnimatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCBarHeightAnimatorDemo/Pods-VCBarHeightAnimatorDemo.release.xcconfig"; sourceTree = "<group>"; };
-		C8E1255A4C70C1191334EEF3 /* Pods-VCBarHeightAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCBarHeightAnimator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCBarHeightAnimator/Pods-VCBarHeightAnimator.debug.xcconfig"; sourceTree = "<group>"; };
-		CBD80F7A023ECEDCDA53CF14 /* libPods-VCBarHeightAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCBarHeightAnimator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F6D876EF87FEC61880928C /* Pods-VCBarHeightAnimatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCBarHeightAnimatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCBarHeightAnimatorDemo/Pods-VCBarHeightAnimatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,8 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A666A3648AD3CA2FBFD4BC10 /* libPods-VCBarHeightAnimator.a in Frameworks */,
-				7CCFA7BE1434079F233996C6 /* libPods-VCBarHeightAnimatorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,17 +98,16 @@
 			children = (
 				3F9F9C592206CC4400867631 /* VCBarHeightAnimator */,
 				3F160DCD21FEA20900F4C259 /* Category */,
+				3F9F9C632206E19A00867631 /* Push ViewController */,
+				3F9F9C652206E1B600867631 /* Push TabBar ViewController */,
+				3F9F9C642206E1B000867631 /* Present Scroll View Controller */,
 				3F3D7BEC21F956310024A556 /* AppDelegate.h */,
 				3F3D7BED21F956310024A556 /* AppDelegate.m */,
-				3F3D7BEF21F956310024A556 /* ViewController.h */,
-				3F3D7BF021F956310024A556 /* ViewController.m */,
 				3F3D7BF221F956310024A556 /* Main.storyboard */,
 				3F3D7BF521F956330024A556 /* Assets.xcassets */,
 				3F3D7BF721F956330024A556 /* LaunchScreen.storyboard */,
 				3F3D7BFA21F956330024A556 /* Info.plist */,
 				3F3D7BFB21F956330024A556 /* main.m */,
-				3F160DD721FEA47C00F4C259 /* LanLanViewController.h */,
-				3F160DD821FEA47C00F4C259 /* LanLanViewController.m */,
 			);
 			path = VCBarHeightAnimatorDemo;
 			sourceTree = "<group>";
@@ -126,11 +124,38 @@
 			path = ../../VCBarHeightAnimator;
 			sourceTree = "<group>";
 		};
+		3F9F9C632206E19A00867631 /* Push ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F3D7BEF21F956310024A556 /* ViewController.h */,
+				3F3D7BF021F956310024A556 /* ViewController.m */,
+			);
+			path = "Push ViewController";
+			sourceTree = "<group>";
+		};
+		3F9F9C642206E1B000867631 /* Present Scroll View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F160DD721FEA47C00F4C259 /* LanLanViewController.h */,
+				3F160DD821FEA47C00F4C259 /* LanLanViewController.m */,
+				3F9F9C692206E3DA00867631 /* DemoPresentScrollViewController.h */,
+				3F9F9C6A2206E3DA00867631 /* DemoPresentScrollViewController.m */,
+			);
+			path = "Present Scroll View Controller";
+			sourceTree = "<group>";
+		};
+		3F9F9C652206E1B600867631 /* Push TabBar ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F9F9C662206E2C700867631 /* DemoPushTabBarViewController.h */,
+				3F9F9C672206E2C700867631 /* DemoPushTabBarViewController.m */,
+			);
+			path = "Push TabBar ViewController";
+			sourceTree = "<group>";
+		};
 		9ED6F87E3900A4432748D90D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C8E1255A4C70C1191334EEF3 /* Pods-VCBarHeightAnimator.debug.xcconfig */,
-				B1C46CEC5E8C369194273756 /* Pods-VCBarHeightAnimator.release.xcconfig */,
 				F9F6D876EF87FEC61880928C /* Pods-VCBarHeightAnimatorDemo.debug.xcconfig */,
 				BF990447C1811F3FC7C4ACF0 /* Pods-VCBarHeightAnimatorDemo.release.xcconfig */,
 			);
@@ -140,7 +165,6 @@
 		BF3F91CAF9C930C897B1E3FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBD80F7A023ECEDCDA53CF14 /* libPods-VCBarHeightAnimator.a */,
 				95D3DDF8C550727D40308E2A /* libPods-VCBarHeightAnimatorDemo.a */,
 			);
 			name = Frameworks;
@@ -244,11 +268,13 @@
 			files = (
 				3F3D7BF121F956310024A556 /* ViewController.m in Sources */,
 				3F9F9C5E2206CC4400867631 /* VCBarHeightAnimator.m in Sources */,
+				3F9F9C6B2206E3DA00867631 /* DemoPresentScrollViewController.m in Sources */,
 				3F3D7BFC21F956330024A556 /* main.m in Sources */,
 				3F9F9C5F2206CC4400867631 /* VCScrollViewContentOffsetObserver.m in Sources */,
 				3F160DD521FEA20900F4C259 /* UIColor+Helper.m in Sources */,
 				3F160DD921FEA47C00F4C259 /* LanLanViewController.m in Sources */,
 				3F3D7BEE21F956310024A556 /* AppDelegate.m in Sources */,
+				3F9F9C682206E2C700867631 /* DemoPushTabBarViewController.m in Sources */,
 				3F160DD421FEA20900F4C259 /* UIView+LayoutConstraints.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

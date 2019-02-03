@@ -146,6 +146,30 @@
                                             <segue destination="Zsm-Br-2Oo" kind="show" id="lWE-CJ-raC"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IaT-LJ-7GI">
+                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IaT-LJ-7GI" id="WzQ-Bh-xXC">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prestnt Scroll View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQF-ym-v9Y">
+                                                    <rect key="frame" x="20" y="11.5" width="355" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rQF-ym-v9Y" firstAttribute="centerY" secondItem="WzQ-Bh-xXC" secondAttribute="centerY" id="0sp-l4-1J7"/>
+                                                <constraint firstAttribute="trailing" secondItem="rQF-ym-v9Y" secondAttribute="trailing" id="YkI-iD-Pa3"/>
+                                                <constraint firstItem="rQF-ym-v9Y" firstAttribute="leading" secondItem="WzQ-Bh-xXC" secondAttribute="leading" constant="20" id="h5r-IB-88J"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="nqd-j9-YlE" kind="presentation" id="Ety-ol-iLe"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -253,7 +277,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Cud-iU-pym"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Test" id="ZNU-i2-ZI3"/>
+                    <navigationItem key="navigationItem" title="Test" id="ZNU-i2-ZI3">
+                        <barButtonItem key="rightBarButtonItem" title="X" id="eKw-9P-G4t">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <connections>
+                                <action selector="closeButtonOnClick:" destination="Zli-J4-bdw" id="Swf-BF-aBf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="scrollTabBar" destination="f9d-SC-ORU" id="tMB-WL-Ncf"/>
                         <outlet property="scrollView" destination="Zvt-E1-v9O" id="1jx-kR-oDb"/>
@@ -262,12 +293,62 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gYs-7L-WGA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3127.1999999999998" y="3102.9985007496252"/>
+            <point key="canvasLocation" x="2313" y="3197"/>
+        </scene>
+        <!--Demo Present Scroll View Controller-->
+        <scene sceneID="Syl-Mi-cgy">
+            <objects>
+                <viewController storyboardIdentifier="DemoPresentScrollViewController" id="qZA-iK-knx" customClass="DemoPresentScrollViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="itC-JF-mA5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SgI-Zf-Cnh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PI4-Ka-i6L">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="xIM-OW-aKP">
+                                        <rect key="frame" x="10" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="qZA-iK-knx" id="vT3-tg-HmQ"/>
+                                    <outlet property="delegate" destination="qZA-iK-knx" id="FQC-co-UNG"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mKO-dk-RCA" firstAttribute="trailing" secondItem="SgI-Zf-Cnh" secondAttribute="trailing" id="Im7-pA-3Ie"/>
+                            <constraint firstItem="SgI-Zf-Cnh" firstAttribute="top" secondItem="itC-JF-mA5" secondAttribute="top" id="dkR-vQ-DSB"/>
+                            <constraint firstItem="SgI-Zf-Cnh" firstAttribute="leading" secondItem="mKO-dk-RCA" secondAttribute="leading" id="hoL-m4-fmh"/>
+                            <constraint firstAttribute="bottom" secondItem="SgI-Zf-Cnh" secondAttribute="bottom" id="kzZ-kY-e1U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mKO-dk-RCA"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="SgI-Zf-Cnh" id="9Nm-lI-0yk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sT2-7m-LdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3284" y="3213"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="cA2-zV-vc5">
             <objects>
-                <viewController id="1UU-IZ-NJs" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="1UU-IZ-NJs" customClass="DemoPushTabBarViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fcA-fI-PdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -279,11 +360,11 @@
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="d7J-aI-2Ld">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="10" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -308,17 +389,17 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="gX0-K2-zAf"/>
                     <connections>
-                        <outlet property="collectionView" destination="d0w-C1-PT3" id="sl2-Ri-yqf"/>
+                        <outlet property="collectionView" destination="d0w-C1-PT3" id="6YI-Fu-uU1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E3Q-Ih-PSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3268" y="2430"/>
+            <point key="canvasLocation" x="4367" y="2211"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="m6Y-xv-SHZ">
             <objects>
-                <viewController id="gzz-gt-A77" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="gzz-gt-A77" customClass="DemoPushTabBarViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S57-Tu-EI0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -330,11 +411,11 @@
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="DTP-c9-LFk">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="10" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -359,12 +440,12 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="lOz-Mw-XMz"/>
                     <connections>
-                        <outlet property="collectionView" destination="nk1-31-bra" id="yyX-oU-Gkd"/>
+                        <outlet property="collectionView" destination="nk1-31-bra" id="gq9-G1-CVz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2v0-kj-Jmc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3266" y="1765"/>
+            <point key="canvasLocation" x="4364" y="1546"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ClU-0N-e0O">
@@ -382,7 +463,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CxE-Bh-ByV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2313" y="2097"/>
+            <point key="canvasLocation" x="3412" y="1878"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7aR-hR-jsY">
@@ -421,7 +502,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fzm-LI-hu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2188" y="3102.9985007496252"/>
+            <point key="canvasLocation" x="2313" y="2414"/>
         </scene>
     </scenes>
 </document>

@@ -8,13 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol ViewControllerProrocol <NSObject>
-
-- (void)fullScreen:(BOOL)fullScreen animated:(BOOL)animated;
-
-@end
-
-@interface ViewController : UIViewController<ViewControllerProrocol>
+@interface ViewController : UIViewController
 
 
 @end
