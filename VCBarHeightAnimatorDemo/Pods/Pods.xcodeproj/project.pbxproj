@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C8D137CE5B5AA15DDE663C24C517AF1 /* VCScrollTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E0E358CA52C6CE6C971B06E4A59DD /* VCScrollTabBar-dummy.m */; };
-		2F1E8EF9CF4E2927087E435183287FF5 /* Pods-VCBarHeightAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD797AE79955AD8D2B19B1B64990702 /* Pods-VCBarHeightAnimator-dummy.m */; };
-		D1CC4ED7E92BAE7C101C6D6781CAE87D /* VCScrollTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A74AA87A923B7D136EEC9158046DB7C0 /* VCScrollTabBar.m */; };
-		F410B85CE4FDF60756BA3ECC313E7B20 /* VCScrollTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FE3D18BC4CD3782913F5514978F586 /* VCScrollTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F753D7399D4283D6664EBC45BF445D5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
+		2DCC789EA778906899BEEDA46AE31473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
+		32D9F60086AC7F3A60CCE89B8B8CEE95 /* Pods-VCBarHeightAnimatorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA42C65CB137E55DC0CBC15B2FB2227 /* Pods-VCBarHeightAnimatorDemo-dummy.m */; };
+		3F83B947A868FC2E96D3C2278AFD57BA /* VCScrollTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E0E358CA52C6CE6C971B06E4A59DD /* VCScrollTabBar-dummy.m */; };
+		586880C1D6041BC8A17A822543B2BD02 /* VCScrollTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FE3D18BC4CD3782913F5514978F586 /* VCScrollTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B5BD7EC455E8F9F55BEE33551142AAA /* VCScrollTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A74AA87A923B7D136EEC9158046DB7C0 /* VCScrollTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		156D3EE28DCE645F2ED24241BC85FB08 /* PBXContainerItemProxy */ = {
+		B25C3E3FF22AF9561FE3C0DA5895AD57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DA166CA99355326030847B1AFF12F61;
+			remoteGlobalIDString = EA88CCC834584F4A625839E08125C514;
 			remoteInfo = VCScrollTabBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036C13D7231F70D254D256DB20C078EC /* Pods-VCBarHeightAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCBarHeightAnimator.release.xcconfig"; sourceTree = "<group>"; };
-		0B0A1F3D25825C7E55F9115EE4082AFB /* Pods-VCBarHeightAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCBarHeightAnimator.debug.xcconfig"; sourceTree = "<group>"; };
-		223E54F6E37ADBB2CF95981481201C8C /* libVCScrollTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVCScrollTabBar.a; path = libVCScrollTabBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0E0E358CA52C6CE6C971B06E4A59DD /* VCScrollTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VCScrollTabBar-dummy.m"; sourceTree = "<group>"; };
-		38452028B11485E8368F18A8C9E31C55 /* Pods-VCBarHeightAnimator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCBarHeightAnimator-frameworks.sh"; sourceTree = "<group>"; };
-		3AD797AE79955AD8D2B19B1B64990702 /* Pods-VCBarHeightAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VCBarHeightAnimator-dummy.m"; sourceTree = "<group>"; };
+		2FC3AAC28550B81AE7D31D774707E33D /* Pods-VCBarHeightAnimatorDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCBarHeightAnimatorDemo-resources.sh"; sourceTree = "<group>"; };
+		3961D1C44671159883E3C091E3E44F48 /* Pods-VCBarHeightAnimatorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VCBarHeightAnimatorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B6425BF6107F2EE5189D9A2458F9246 /* VCScrollTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VCScrollTabBar.xcconfig; sourceTree = "<group>"; };
-		4CE658502D66982ED5B54457CC206BEB /* Pods-VCBarHeightAnimator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCBarHeightAnimator-resources.sh"; sourceTree = "<group>"; };
+		5DA42C65CB137E55DC0CBC15B2FB2227 /* Pods-VCBarHeightAnimatorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VCBarHeightAnimatorDemo-dummy.m"; sourceTree = "<group>"; };
 		719C48ADBD02F132A8195C52862937B8 /* VCScrollTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCScrollTabBar-prefix.pch"; sourceTree = "<group>"; };
-		82CB2D46C234E04BE6E18A22D3F9D297 /* Pods-VCBarHeightAnimator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VCBarHeightAnimator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86F80631B96BCC950C76F79E9B615F41 /* Pods-VCBarHeightAnimatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCBarHeightAnimatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		896A83D1D34FE17AE181AC985B9DE69E /* libVCScrollTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVCScrollTabBar.a; path = libVCScrollTabBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FE3D18BC4CD3782913F5514978F586 /* VCScrollTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCScrollTabBar.h; path = VCScrollTabBar/VCScrollTabBar.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A74AA87A923B7D136EEC9158046DB7C0 /* VCScrollTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VCScrollTabBar.m; path = VCScrollTabBar/VCScrollTabBar.m; sourceTree = "<group>"; };
-		CD721902ADE35E2503B9CC6135961F20 /* Pods-VCBarHeightAnimator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VCBarHeightAnimator-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5659CC595DCD5DCDE8A84A1E74A04E8 /* Pods-VCBarHeightAnimatorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VCBarHeightAnimatorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D18CE8C68A3B236DEB0F4D495BC1D20C /* Pods-VCBarHeightAnimatorDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCBarHeightAnimatorDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DAFF46940780F66AD5F00D8B24A0B60F /* Pods-VCBarHeightAnimatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCBarHeightAnimatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F7BDE28F4415CE059D4879758D25C268 /* libPods-VCBarHeightAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VCBarHeightAnimator.a"; path = "libPods-VCBarHeightAnimator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D412C5642FFFEA52557B3F2B3E350B /* libPods-VCBarHeightAnimatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VCBarHeightAnimatorDemo.a"; path = "libPods-VCBarHeightAnimatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AE9D13169D88317FEB44D1509D1A504 /* Frameworks */ = {
+		2C42D29ADA37616A8B205696DB660630 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F753D7399D4283D6664EBC45BF445D5B /* UIKit.framework in Frameworks */,
+				2DCC789EA778906899BEEDA46AE31473 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD196A1D9056A98EA2CDAEE9BF05BB45 /* Frameworks */ = {
+		ED3A6D15DC5959F4BD7320BF50898017 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,28 +62,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F0AC4F7AF92C38E53B2EC61B1E6A7F4 /* Pods-VCBarHeightAnimator */ = {
+		0E350F79AC9E3E909A37E79E66F90810 /* Pods-VCBarHeightAnimatorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				82CB2D46C234E04BE6E18A22D3F9D297 /* Pods-VCBarHeightAnimator-acknowledgements.markdown */,
-				CD721902ADE35E2503B9CC6135961F20 /* Pods-VCBarHeightAnimator-acknowledgements.plist */,
-				3AD797AE79955AD8D2B19B1B64990702 /* Pods-VCBarHeightAnimator-dummy.m */,
-				38452028B11485E8368F18A8C9E31C55 /* Pods-VCBarHeightAnimator-frameworks.sh */,
-				4CE658502D66982ED5B54457CC206BEB /* Pods-VCBarHeightAnimator-resources.sh */,
-				0B0A1F3D25825C7E55F9115EE4082AFB /* Pods-VCBarHeightAnimator.debug.xcconfig */,
-				036C13D7231F70D254D256DB20C078EC /* Pods-VCBarHeightAnimator.release.xcconfig */,
+				B5659CC595DCD5DCDE8A84A1E74A04E8 /* Pods-VCBarHeightAnimatorDemo-acknowledgements.markdown */,
+				3961D1C44671159883E3C091E3E44F48 /* Pods-VCBarHeightAnimatorDemo-acknowledgements.plist */,
+				5DA42C65CB137E55DC0CBC15B2FB2227 /* Pods-VCBarHeightAnimatorDemo-dummy.m */,
+				D18CE8C68A3B236DEB0F4D495BC1D20C /* Pods-VCBarHeightAnimatorDemo-frameworks.sh */,
+				2FC3AAC28550B81AE7D31D774707E33D /* Pods-VCBarHeightAnimatorDemo-resources.sh */,
+				DAFF46940780F66AD5F00D8B24A0B60F /* Pods-VCBarHeightAnimatorDemo.debug.xcconfig */,
+				86F80631B96BCC950C76F79E9B615F41 /* Pods-VCBarHeightAnimatorDemo.release.xcconfig */,
 			);
-			name = "Pods-VCBarHeightAnimator";
-			path = "Target Support Files/Pods-VCBarHeightAnimator";
+			name = "Pods-VCBarHeightAnimatorDemo";
+			path = "Target Support Files/Pods-VCBarHeightAnimatorDemo";
 			sourceTree = "<group>";
 		};
-		283B72F18F68C99D23858A84AB0A5EF6 /* Products */ = {
+		3D59C9FEA928FE99A67484C579FD4082 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7BDE28F4415CE059D4879758D25C268 /* libPods-VCBarHeightAnimator.a */,
-				223E54F6E37ADBB2CF95981481201C8C /* libVCScrollTabBar.a */,
+				0E350F79AC9E3E909A37E79E66F90810 /* Pods-VCBarHeightAnimatorDemo */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		439617EAFCB50E7C1F770414D2834329 /* iOS */ = {
@@ -105,23 +104,24 @@
 			path = VCScrollTabBar;
 			sourceTree = "<group>";
 		};
-		6E7632FFC241CB45E129E406E2653A1B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F0AC4F7AF92C38E53B2EC61B1E6A7F4 /* Pods-VCBarHeightAnimator */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F0842BCCE16F4B83BB53CDDAB2B443AF /* Pods */,
-				283B72F18F68C99D23858A84AB0A5EF6 /* Products */,
-				6E7632FFC241CB45E129E406E2653A1B /* Targets Support Files */,
+				A3DCCC09888ADA62E7AB46EDE851F56F /* Products */,
+				3D59C9FEA928FE99A67484C579FD4082 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A3DCCC09888ADA62E7AB46EDE851F56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6D412C5642FFFEA52557B3F2B3E350B /* libPods-VCBarHeightAnimatorDemo.a */,
+				896A83D1D34FE17AE181AC985B9DE69E /* libVCScrollTabBar.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -154,49 +154,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		56D5B8A46261DD8957744F961311AF8A /* Headers */ = {
+		1DA2576FBE768192B234B4370E87F9A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		783396428C6CD4737091DBD22CB5AAE2 /* Headers */ = {
+		C5F672E8968DC605A4E13533EA1DE8E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F410B85CE4FDF60756BA3ECC313E7B20 /* VCScrollTabBar.h in Headers */,
+				586880C1D6041BC8A17A822543B2BD02 /* VCScrollTabBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		453D4FFCF9231CE20B6B17465A908CC4 /* Pods-VCBarHeightAnimator */ = {
+		3BCABD4DA05BF930C5A9E08F9884DA7C /* Pods-VCBarHeightAnimatorDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A66256CDF562E9176F8CA6B5A1018656 /* Build configuration list for PBXNativeTarget "Pods-VCBarHeightAnimator" */;
+			buildConfigurationList = 31C93EA5C381EB020E45945296A8DEA3 /* Build configuration list for PBXNativeTarget "Pods-VCBarHeightAnimatorDemo" */;
 			buildPhases = (
-				56D5B8A46261DD8957744F961311AF8A /* Headers */,
-				7A26EB6680D8F964B0C71CCBE5D74152 /* Sources */,
-				FD196A1D9056A98EA2CDAEE9BF05BB45 /* Frameworks */,
+				1DA2576FBE768192B234B4370E87F9A3 /* Headers */,
+				388CB6DAB540E42065BB2C5E00C1E1FF /* Sources */,
+				ED3A6D15DC5959F4BD7320BF50898017 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				963E49D29CCC2815819EBE013D503520 /* PBXTargetDependency */,
+				25A352C9EE157049E408D5CE9114A7F0 /* PBXTargetDependency */,
 			);
-			name = "Pods-VCBarHeightAnimator";
-			productName = "Pods-VCBarHeightAnimator";
-			productReference = F7BDE28F4415CE059D4879758D25C268 /* libPods-VCBarHeightAnimator.a */;
+			name = "Pods-VCBarHeightAnimatorDemo";
+			productName = "Pods-VCBarHeightAnimatorDemo";
+			productReference = F6D412C5642FFFEA52557B3F2B3E350B /* libPods-VCBarHeightAnimatorDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5DA166CA99355326030847B1AFF12F61 /* VCScrollTabBar */ = {
+		EA88CCC834584F4A625839E08125C514 /* VCScrollTabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E62A72E35147A4E0279AAC75ECDAE3E /* Build configuration list for PBXNativeTarget "VCScrollTabBar" */;
+			buildConfigurationList = 6FD11F599FDCB501D23914378F632CED /* Build configuration list for PBXNativeTarget "VCScrollTabBar" */;
 			buildPhases = (
-				783396428C6CD4737091DBD22CB5AAE2 /* Headers */,
-				B08324373968E3BAB111E27CAA57594A /* Sources */,
-				0AE9D13169D88317FEB44D1509D1A504 /* Frameworks */,
+				C5F672E8968DC605A4E13533EA1DE8E8 /* Headers */,
+				8FC77F4E3E7341E435C83DBB5165624C /* Sources */,
+				2C42D29ADA37616A8B205696DB660630 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,7 +204,7 @@
 			);
 			name = VCScrollTabBar;
 			productName = VCScrollTabBar;
-			productReference = 223E54F6E37ADBB2CF95981481201C8C /* libVCScrollTabBar.a */;
+			productReference = 896A83D1D34FE17AE181AC985B9DE69E /* libVCScrollTabBar.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -224,68 +224,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 283B72F18F68C99D23858A84AB0A5EF6 /* Products */;
+			productRefGroup = A3DCCC09888ADA62E7AB46EDE851F56F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				453D4FFCF9231CE20B6B17465A908CC4 /* Pods-VCBarHeightAnimator */,
-				5DA166CA99355326030847B1AFF12F61 /* VCScrollTabBar */,
+				3BCABD4DA05BF930C5A9E08F9884DA7C /* Pods-VCBarHeightAnimatorDemo */,
+				EA88CCC834584F4A625839E08125C514 /* VCScrollTabBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A26EB6680D8F964B0C71CCBE5D74152 /* Sources */ = {
+		388CB6DAB540E42065BB2C5E00C1E1FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F1E8EF9CF4E2927087E435183287FF5 /* Pods-VCBarHeightAnimator-dummy.m in Sources */,
+				32D9F60086AC7F3A60CCE89B8B8CEE95 /* Pods-VCBarHeightAnimatorDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B08324373968E3BAB111E27CAA57594A /* Sources */ = {
+		8FC77F4E3E7341E435C83DBB5165624C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8D137CE5B5AA15DDE663C24C517AF1 /* VCScrollTabBar-dummy.m in Sources */,
-				D1CC4ED7E92BAE7C101C6D6781CAE87D /* VCScrollTabBar.m in Sources */,
+				3F83B947A868FC2E96D3C2278AFD57BA /* VCScrollTabBar-dummy.m in Sources */,
+				6B5BD7EC455E8F9F55BEE33551142AAA /* VCScrollTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		963E49D29CCC2815819EBE013D503520 /* PBXTargetDependency */ = {
+		25A352C9EE157049E408D5CE9114A7F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VCScrollTabBar;
-			target = 5DA166CA99355326030847B1AFF12F61 /* VCScrollTabBar */;
-			targetProxy = 156D3EE28DCE645F2ED24241BC85FB08 /* PBXContainerItemProxy */;
+			target = EA88CCC834584F4A625839E08125C514 /* VCScrollTabBar */;
+			targetProxy = B25C3E3FF22AF9561FE3C0DA5895AD57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09CBA180B51BF9166202609E3FFBEB7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B0A1F3D25825C7E55F9115EE4082AFB /* Pods-VCBarHeightAnimator.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -352,7 +330,76 @@
 			};
 			name = Debug;
 		};
-		1683027D2D5459CECA5393971F25085C /* Release */ = {
+		20D70DCD104BC40B83BC6A1A1C8B5856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFF46940780F66AD5F00D8B24A0B60F /* Pods-VCBarHeightAnimatorDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA5F46C8559481657350569D951D6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6425BF6107F2EE5189D9A2458F9246 /* VCScrollTabBar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VCScrollTabBar/VCScrollTabBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VCScrollTabBar;
+				PRODUCT_NAME = VCScrollTabBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6873ECACEEE98EB0C6EA17AE5A6DC1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F80631B96BCC950C76F79E9B615F41 /* Pods-VCBarHeightAnimatorDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DD0ACB1503DEF85996EEE35B11B19B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B6425BF6107F2EE5189D9A2458F9246 /* VCScrollTabBar.xcconfig */;
 			buildSettings = {
@@ -439,53 +486,6 @@
 			};
 			name = Release;
 		};
-		A2A61EBEFFC0A66DBBFEC7969FAEBCF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 036C13D7231F70D254D256DB20C078EC /* Pods-VCBarHeightAnimator.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AA9FFF95A1C536F18EBB071C2C0C3213 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B6425BF6107F2EE5189D9A2458F9246 /* VCScrollTabBar.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/VCScrollTabBar/VCScrollTabBar-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = VCScrollTabBar;
-				PRODUCT_NAME = VCScrollTabBar;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,20 +498,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E62A72E35147A4E0279AAC75ECDAE3E /* Build configuration list for PBXNativeTarget "VCScrollTabBar" */ = {
+		31C93EA5C381EB020E45945296A8DEA3 /* Build configuration list for PBXNativeTarget "Pods-VCBarHeightAnimatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA9FFF95A1C536F18EBB071C2C0C3213 /* Debug */,
-				1683027D2D5459CECA5393971F25085C /* Release */,
+				20D70DCD104BC40B83BC6A1A1C8B5856 /* Debug */,
+				6873ECACEEE98EB0C6EA17AE5A6DC1BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A66256CDF562E9176F8CA6B5A1018656 /* Build configuration list for PBXNativeTarget "Pods-VCBarHeightAnimator" */ = {
+		6FD11F599FDCB501D23914378F632CED /* Build configuration list for PBXNativeTarget "VCScrollTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09CBA180B51BF9166202609E3FFBEB7F /* Debug */,
-				A2A61EBEFFC0A66DBBFEC7969FAEBCF4 /* Release */,
+				3FA5F46C8559481657350569D951D6D3 /* Debug */,
+				7DD0ACB1503DEF85996EEE35B11B19B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
