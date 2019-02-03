@@ -74,8 +74,7 @@
 
 - (VCBarHeightAnimator *)barHeightAnimator {
     if (!_barHeightAnimator) {
-        _barHeightAnimator = [[VCBarHeightAnimator alloc] initWithBarHeightAnimating:self
-                                                               barHeightAnimatorDelegate:self];
+        _barHeightAnimator = [[VCBarHeightAnimator alloc] initWithBarHeightAnimatingWithViewController:self scrollView:self.collectionView];
     }
     
     return _barHeightAnimator;

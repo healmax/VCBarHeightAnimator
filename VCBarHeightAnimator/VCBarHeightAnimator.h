@@ -31,12 +31,13 @@ extern NSString * const VCBarHeightAnimatorNavigationBarHeightAnimatedChanged;
 
 @interface VCBarHeightAnimator : UIScrollView
 
-- (instancetype)initWithBarHeightAnimating:(id<VCBarHeightAnimating>)barHeightAnimating
-                 barHeightAnimatorDelegate:(id<VCBarHeightAnimatorDelegate>)delegate;
+//- (instancetype)initWithBarHeightAnimating:(id<VCBarHeightAnimating>)barHeightAnimating
+//                 barHeightAnimatorDelegate:(id<VCBarHeightAnimatorDelegate>)delegate;
+
+- (instancetype)initWithBarHeightAnimatingWithViewController:(UIViewController<VCBarHeightAnimatorDelegate> *)viewController scrollView:(UIScrollView *)scrollView;
 
 - (void)showBarWithAnimated:(BOOL)animated;
 - (void)hideBarWithAnimated:(BOOL)animated;
-//- (instancetype)initWithBarHeightAnimatingWithViewController:(UIViewController *)viewController scrollView:(UIScrollView *)scrollView;
 
 
 @end

@@ -115,10 +115,10 @@
 		3F9F9C592206CC4400867631 /* VCBarHeightAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				3F9F9C5A2206CC4400867631 /* VCBarHeightAnimator.m */,
-				3F9F9C5B2206CC4400867631 /* VCScrollViewContentOffsetObserver.m */,
 				3F9F9C5C2206CC4400867631 /* VCBarHeightAnimator.h */,
+				3F9F9C5A2206CC4400867631 /* VCBarHeightAnimator.m */,
 				3F9F9C5D2206CC4400867631 /* VCScrollViewContentOffsetObserver.h */,
+				3F9F9C5B2206CC4400867631 /* VCScrollViewContentOffsetObserver.m */,
 			);
 			name = VCBarHeightAnimator;
 			path = ../../VCBarHeightAnimator;

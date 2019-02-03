@@ -18,9 +18,10 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 
 @interface VCBarHeightAnimator()<UIGestureRecognizerDelegate>
 
+@property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, weak) UIViewController<VCBarHeightAnimatorDelegate> *viewController;
+
 @property (nonatomic, strong) VCScrollViewContentOffsetObserver *contentOffsetObserver;
-@property (nonatomic, weak) id<VCBarHeightAnimating> barHeightAnimating;
-@property (nonatomic, weak) id<VCBarHeightAnimatorDelegate> barHeightAnimatorDelegate;
 @property (nonatomic, assign) CGFloat lastContentOffsetY;
 @property (nonatomic, assign) CGFloat scrollDistance;
 @property (nonatomic, assign) BOOL didEndGesture;
@@ -33,17 +34,16 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 
 @implementation VCBarHeightAnimator
 
-- (instancetype)initWithBarHeightAnimating:(id<VCBarHeightAnimating>)barHeightAnimating
-                 barHeightAnimatorDelegate:(id<VCBarHeightAnimatorDelegate>)delegate {
-    
+- (instancetype)initWithBarHeightAnimatingWithViewController:(UIViewController<VCBarHeightAnimatorDelegate> *)viewController scrollView:(UIScrollView *)scrollView {
     if (self = [super init]) {
-        _barHeightAnimatorDelegate = delegate;
-        _barHeightAnimating = barHeightAnimating;
+        _viewController = viewController;
+        _scrollView = scrollView;
         _scrollDistance = 0;
         [self commonInit];
     }
-    
+
     return self;
+
 }
 
 - (void)dealloc {
@@ -148,8 +148,8 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
     // 更新TabBar的位置
     [self updateTabBarWithPercentage:percentage];
     
-    if ([self.barHeightAnimatorDelegate respondsToSelector:@selector(barHeightAnimator:barHeightDidChangedWithVisiableHeight:)]) {
-        [self.barHeightAnimatorDelegate barHeightAnimator:self barHeightDidChangedWithVisiableHeight:percentage * self.navigationBarHeight];
+    if ([self.viewController respondsToSelector:@selector(barHeightAnimator:barHeightDidChangedWithVisiableHeight:)]) {
+        [self.viewController barHeightAnimator:self barHeightDidChangedWithVisiableHeight:percentage * self.navigationBarHeight];
     }
     
     [[NSNotificationCenter defaultCenter] postNotificationName:VCBarHeightAnimatorNavigationBarHeightChanged object:@(percentage * self.navigationBarHeight)];
@@ -196,24 +196,24 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 - (void)updateViewControllerViewWithPercentage:(CGFloat)percentage {
     if (!self.navigationBar.isTranslucent) {
         
-        CGFloat originalPercentage = (CGRectGetMinY(self.viewController.view.frame) - self.statusBarHeight) / self.navigationBarHeight;
+        CGFloat originalPercentage = (CGRectGetMinY(self.topViewController.view.frame) - self.statusBarHeight) / self.navigationBarHeight;
         CGFloat originalOffsetY = (1 - originalPercentage) * self.navigationBarHeight;
         
         CGFloat height = (1 - originalPercentage) * self.tabBarHeight;
         CGFloat tabBarOffset = percentage * self.tabBarHeight;
         
-        CGRect frame = self.viewController.view.frame;
+        CGRect frame = self.topViewController.view.frame;
         CGFloat offsetY = percentage * self.navigationBarHeight;
         frame.origin = CGPointMake(frame.origin.x, offsetY+self.statusBarHeight);
         //frame.size.height減掉上次移動距離再加上這次移動的距離
         frame.size = CGSizeMake(frame.size.width, frame.size.height - height - originalOffsetY + (self.navigationBarHeight - offsetY) + (self.tabBarHeight - tabBarOffset));
-        self.viewController.view.frame = frame;
-        [self.viewController.view layoutIfNeeded];
+        self.topViewController.view.frame = frame;
+        [self.topViewController.view layoutIfNeeded];
     }
 }
 
 - (void)updateNavigationBarAlphaWithPercentage:(CGFloat)percentage {    
-    UINavigationItem *navigationItem = self.viewController.navigationItem;
+    UINavigationItem *navigationItem = self.topViewController.navigationItem;
     if (!navigationItem) {
         return;
     }
@@ -263,11 +263,8 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 }
 
 - (void)adjustBarHeightWithPercentage:(CGFloat)percentage animated:(BOOL)animated {
-     CGFloat offset = (CGRectGetMaxY(self.navigationBar.frame)) - self.navigationBarHeight * percentage;
     if (animated) {
         [UIView animateWithDuration:kCollapseAnimationDuration animations:^{
-//            [self updateContentOffsetWithOffset:offset];
-            
             // 更新NavigationBar的位置
             [self updateNavigationBarWithPercentage:percentage];
             // 如果navigationBar isTranslucent為flase, 更新ViewController View的Size
@@ -280,7 +277,6 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
             [[NSNotificationCenter defaultCenter] postNotificationName:VCBarHeightAnimatorNavigationBarHeightAnimatedChanged object:@(percentage * self.navigationBarHeight)];
         }];
     } else {
-//        [self updateContentOffsetWithOffset:offset];
         [self updateViewControllerViewWithPercentage:percentage];
         [self updateNavigationBarWithPercentage:percentage];
         [self updateNavigationBarAlphaWithPercentage:percentage];
@@ -290,11 +286,7 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 
 #pragma mark - accessor
 
-- (UIScrollView *)scrollView {
-    return self.barHeightAnimating.scrollView;
-}
-
-- (UIViewController *)viewController {
+- (UIViewController *)topViewController {
     return self.navigationController.topViewController;
 }
 
@@ -307,7 +299,7 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 }
 
 - (UINavigationController *)navigationController {
-    return self.barHeightAnimating.viewController.navigationController;
+    return self.viewController.navigationController;
 }
 
 - (UINavigationBar *)navigationBar {
@@ -327,7 +319,7 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 }
 
 - (UITabBarController *)tabBarController {
-    return self.barHeightAnimating.viewController.tabBarController;
+    return self.viewController.tabBarController;
 }
 
 - (UITabBar *)tabBar {
@@ -339,7 +331,7 @@ static NSTimeInterval const kCollapseAnimationDuration = 0.3f;
 }
 
 - (CGFloat)tabBarOriginalBottomY {
-    return CGRectGetHeight(self.viewController.view.frame);
+    return CGRectGetHeight(self.topViewController.view.frame);
 }
 
 #pragma mark - Notification
